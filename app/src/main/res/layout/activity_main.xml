@@ -194,5 +194,39 @@
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="C"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonFrac"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/buttonDot"
+            android:layout_below="@id/buttonDot"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="FRAC"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonExpo"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/buttonZero"
+            android:layout_below="@id/buttonZero"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="^"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonRoot"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/buttonEqual"
+            android:layout_below="@id/buttonEqual"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="√"
+            android:textSize="20sp" />
+
     </RelativeLayout>
 </layout>
