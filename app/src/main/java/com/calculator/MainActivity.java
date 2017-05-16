@@ -226,6 +226,24 @@ public class MainActivity extends AppCompatActivity {
                 CURRENT_ACTION = '0';
             }
         });
+
+        binding.buttonClear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(binding.editText.getText().length() > 0) {
+                    CharSequence currentText = binding.editText.getText();
+                    binding.editText.setText(currentText.subSequence(0, currentText.length()-1));
+                }
+                else {
+                    valueOne = Double.NaN;
+                    valueTwo = Double.NaN;
+                    binding.editText.setText("");
+                    binding.infoTextView.setText("");
+                }
+            }
+        });
+
+
     }
 
     private void computeCalculation() {
