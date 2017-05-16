@@ -106,76 +106,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
-        /*
-        binding.buttonDivide.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "/");
-            }
-        });
-
-        binding.buttonMultiply.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "*");
-            }
-        });
-
-        binding.buttonSubtract.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "-");
-            }
-        });
-
-        binding.buttonAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "+");
-            }
-        });
-
-        binding.buttonEqual.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "=");
-            }
-        });
-
-        binding.buttonFrac.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "FRAC");
-            }
-        });
-
-
-        binding.buttonExpo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "^");
-            }
-        });
-
-        binding.buttonRoot.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "√");
-            }
-        });
-
-        binding.buttonClear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                binding.editText.setText(binding.editText.getText() + "C");
-            }
-        });
-
-
-
-    */
-
         binding.buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -215,6 +145,7 @@ public class MainActivity extends AppCompatActivity {
                 binding.editText.setText(null);
             }
         });
+
 
         binding.buttonEqual.setOnClickListener(new View.OnClickListener() {
             @Override
